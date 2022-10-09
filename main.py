@@ -164,6 +164,14 @@ if val == "5":
             print(i)
         nidurst = functools.reduce(operator.mul, margfal, 1)
         print(nidurst)
+        svar = input("\n Viltu Gera aftur? [y/n] = ")
+        if svar == 'n':
+            on = False
+        elif svar == 'y':
+            print("")
+        else:
+            print("\n Villa með inslatt")
+        break
        
 print("\n")
 
