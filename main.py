@@ -128,19 +128,21 @@ hvort endurtaka eigi vinnsluna eða ekki. Ef því er svarað játandi er vinnsl
 svarar spurningunni neitandi.
 """
 if val == "4":
-    year = int(input("Skrifaðu ár: "))
-    if year % 4 == 0:
-        if year % 4 == 0 or year % 100 == 0 and year % 400:
-            print("Þetta er hlaupaár!")
-    else:
-        print("Þetta var ekki hlaupaár")
+    on = True
+    while on:
+        year = int(input("Skrifaðu ár: "))
+        if year % 4 == 0:
+            if year % 4 == 0 or year % 100 == 0 and year % 400:
+                print("Þetta er hlaupaár!")
+        else:
+            print("Þetta var ekki hlaupaár")
         svar = input("\n Viltu Gera aftur? [y/n] = ")
-    if svar == 'n':
-        on = False
-    elif svar == 'y':
-        print("")
-    else:
-        print("\n Villa með inslatt")
+        if svar == 'n':
+            on = False
+        elif svar == 'y':
+            print("")
+        else:
+            print("\n Villa með inslatt")
 
 
 """
