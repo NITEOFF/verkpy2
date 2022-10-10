@@ -14,7 +14,7 @@ print("Meðaltal [3]")
 print("Hlaupaár [4]")
 print("Hrópmerk [5]")
 print("While spurningar [6]")
-print("Hætta [999/0]")
+print("Hætta [7]")
 val=input("Veldu lið = ")
 """ 
 Lidur 1: Slembitölur 1
@@ -201,6 +201,6 @@ if val == "6":
 
 
 
-if val == "999" or "0":
+if val == "7":
     print("Takk fyrir notkun forritans")
 Breakpoint
