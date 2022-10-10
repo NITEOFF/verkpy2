@@ -108,7 +108,7 @@ while loop:
             tel = 0
             summa = 0 
             while tel < 5:
-                tala = int(input("Gefðu tölu: "))
+                tala = int(input("\nGefðu tölu: "))
                 summa = summa + tala
                 tel = tel + 1
             medalt = summa / tel
@@ -206,4 +206,5 @@ while loop:
 
     if val == "7":
         print("Takk fyrir notkun forritans")
-    loop=False
+        loop2 = loop = False
+    loop2 = False
